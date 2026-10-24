@@ -1,0 +1,351 @@
+.two-5 {
+  width: 100%;
+}
+.a {
+  margin-top: 0px;
+}
+.h {
+  height: 90vh;
+  object-fit: cover;
+}
+.stat-icon {
+  background-color: #28a745; /* Bootstrap's green */
+  color: white;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 18px;
+  margin-bottom: 10px;
+  margin-left: 0%;
+}
+.stat-number {
+  margin-top: -5px;
+  font-weight: bold;
+  color: #000;
+}
+.stat-title {
+  font-weight: 600;
+  font-size: 22px;
+}
+.stat-desc {
+  color: #777;
+}
+.card-title {
+  margin-top: -50px;
+}
+
+/* Our services */
+
+.stat:hover {
+  background: #28a745;
+  color: white;
+  cursor: pointer;
+}
+.stat {
+  /* background-color: #28a745; Bootstrap's green */
+  background: white;
+  color: #28a745;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 50px;
+  margin-left: 0%;
+  position: relative;
+  top: -70px;
+}
+.temp {
+  font-size: px;
+}
+
+/* nav and tab */
+/* why choose us */
+.icon {
+  background-color: #28a745; /* Bootstrap's green */
+  color: white;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 18px;
+  margin-bottom: 10px;
+  margin-right: 5%;
+}
+
+.bor {
+  width: 100px;
+  border: 0.9px solid #28a745;
+  opacity: 0.1;
+}
+
+.car {
+  border: none;
+}
+
+.nav-tabs {
+  width: 95%;
+  margin-top: 50px;
+  padding-top: 20px;
+}
+
+/* Our Team */
+
+.member {
+  overflow: hidden;
+margin-bottom: 50px;
+}
+.memb {
+  color: #28a745;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  position: relative;
+  left: 85%;
+  top: -200px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 30px;
+}
+.test {
+  margin-top: -40px;
+}
+.team{
+  margin-bottom: 20px;
+  margin-left: 20px;
+  width: 90%;
+}
+
+
+.what {
+  text-align: center;
+  height: 40vh;
+  background: rgb(255, 255, 255);
+  margin-top: 70px;
+  padding: 10px;
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 100px;
+}
+
+.what p {
+  color: rgb(93, 93, 93);
+  font-family: "Open Sans", sans-serif;
+  word-spacing: 1px;
+  padding-top: 10px;
+}
+
+.one {
+  position: relative;
+  width: 70%;
+  margin-top: -50%;
+  margin-left: -0%;
+}
+.sect {
+  background: #fffefe;
+}
+
+.quote {
+  color: white;
+  background: #28a745;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  position: relative;
+  left: -70px;
+  bottom: -50px;
+  padding-top: 10px;
+  border-radius: 50%;
+  font-size: 20px;
+}
+/* ==========Footer start========= */
+.foot1 {
+margin-left: 10px;
+}
+.foot1 i {
+opacity: 0.5;
+}
+
+
+.foot2{
+  margin-left: 30px;
+}
+.foot2 a {
+  text-decoration: none;
+
+}
+
+.foot2 li{
+  opacity: 0.5;
+}
+
+.foot3 img {
+  border-radius: 10px;
+  height: 60px;
+  width: 90px;
+}
+.foot3{
+  margin-left: 5px;
+}
+
+.foot4 p {
+  opacity: 0.5;
+}
+
+.foot5{
+ 
+  margin-top: -50px;
+}
+
+/* ==========Footer End========= */
+/* our team end */
+@media only screen and (min-width: 768px) {
+  .dis {
+    padding-top: 70px;
+  }
+  .what {
+    text-align: center;
+    height: 35vh;
+    width: 60%;
+    background: rgb(255, 255, 255);
+    margin-top: 70px;
+    padding: 10px;
+   
+  
+  }
+
+  .what p {
+    color: rgb(93, 93, 93);
+    font-family: "Open Sans", sans-serif;
+    word-spacing: 1px;
+    padding-top: 20px;
+    
+  }
+
+  /* ==========Footer start========= */
+.foot5{
+  margin-left: 30%;
+}
+
+.foot2{margin-left: 10%; 
+}
+.foot4{
+  margin-left: 10%;
+}
+.foot3 img{
+  margin-left:5%;
+  height: 50px;
+  width: 70px;
+}
+/* ==========Footer End========= */
+}
+
+@media only screen and (min-width: 992px) {
+  .bu {
+    margin-left: 50px;
+  }
+  .h {
+    height: 100%;
+  }
+  .third1 {
+    font-size: 30px;
+    border-radius: 50%;
+    padding: 20px;
+  }
+
+
+  /* Our Team */
+
+.member {
+  overflow: hidden;
+  margin-left: 5%;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  padding: -100%;
+}
+.memb {
+  color: #28a745;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  position: relative;
+  left: 90%;
+  top: -200px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 30px;
+
+  margin-left: 0%;
+}
+.team{
+  margin: 20%;
+width: 100%;
+
+
+}
+.team img{
+  width:0%;
+}
+/* our team end */
+
+
+.what {
+     height: 25vh;
+  }
+
+  /* ==========Footer start========= */
+.footer{
+  height: 60vh;
+
+}
+  .foot1 {
+margin-left: -5px;
+}
+.foot1 i {
+opacity: 0.5;
+}
+
+
+.foot2{
+  margin-left:0px;
+}
+.foot2 a {
+  text-decoration: none;
+
+}
+
+.foot2 li{
+  opacity: 0.5;
+}
+
+.foot3 img {
+  border-radius: 10px;
+  height: 60px;
+  width: 90px;
+}
+.foot3{
+  margin-left: -20px;
+}
+
+.foot4 p {
+  opacity: 0.5;
+}
+.foot4{
+  margin-left: 5px;
+}
+
+.foot5{
+ 
+  margin-top: -50px;
+  margin-left: 60%;
+}
+/* ==========Footer End========= */
+}
